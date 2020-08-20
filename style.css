@@ -10,9 +10,14 @@ html {
     background-color: #efeae6;
 }
 
-
 a {
     color: #000;
+}
+
+p {
+	margin: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 .speech-bubble-left {
