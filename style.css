@@ -1,0 +1,53 @@
+/* 
+    Document   : style
+    Created on : Aug 20, 2020
+    Author     : Dario
+    Description:
+*/
+
+html {
+    font-family: sans-serif;
+    background-color: #efeae6;
+}
+
+.speech-bubble-left {
+	position: relative;
+	background: #fffeff;
+	border-radius: .4em;
+}
+
+.speech-bubble-left:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 0;
+	border: 1.5em solid transparent;
+	border-right-color: #fffeff;
+	border-left: 0;
+	border-top: 0;
+	margin-top: 0em;
+	margin-left: -0.99em;
+}
+
+.speech-bubble-right {
+	position: relative;
+	background: #e1fec4;
+	border-radius: .4em;
+}
+
+.speech-bubble-right:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 0;
+	height: 0;
+	border: 1.406em solid transparent;
+	border-left-color: #e1fec4;
+	border-right: 0;
+	border-top: 0;
+	margin-top: 0em;
+	margin-right: -0.99em;
+}
